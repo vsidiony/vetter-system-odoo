@@ -5,7 +5,7 @@ from odoo import http
 class DscBrandmodule(http.Controller):
     @http.route('/dsc_brandmodule/dsc_brandmodule/', auth='public')
     def index(self, **kw):
-        return "Hello, world"
+        return "Hello, world 2"
 
     @http.route('/dsc_brandmodule/dsc_brandmodule/objects/', auth='public')
     def list(self, **kw):
